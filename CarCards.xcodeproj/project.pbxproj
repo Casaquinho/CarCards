@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AB189842CADBC6B00F0BBC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB189832CADBC6B00F0BBC4 /* ContentView.swift */; };
 		9AF4A12B2CA1E7A10046B3E1 /* CarCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF4A12A2CA1E7A10046B3E1 /* CarCardsApp.swift */; };
-		9AF4A12D2CA1E7A10046B3E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF4A12C2CA1E7A10046B3E1 /* ContentView.swift */; };
 		9AF4A12F2CA1E7A20046B3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF4A12E2CA1E7A20046B3E1 /* Assets.xcassets */; };
 		9AF4A1322CA1E7A20046B3E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF4A1312CA1E7A20046B3E1 /* Preview Assets.xcassets */; };
 		9AF4A13C2CA1E7A20046B3E1 /* CarCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF4A13B2CA1E7A20046B3E1 /* CarCardsTests.swift */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9AB189832CADBC6B00F0BBC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9AF4A1272CA1E7A10046B3E1 /* CarCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF4A12A2CA1E7A10046B3E1 /* CarCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCardsApp.swift; sourceTree = "<group>"; };
-		9AF4A12C2CA1E7A10046B3E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9AF4A12E2CA1E7A20046B3E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AF4A1312CA1E7A20046B3E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9AF4A1372CA1E7A20046B3E1 /* CarCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,9 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				9AF4A12A2CA1E7A10046B3E1 /* CarCardsApp.swift */,
-				9AF4A12C2CA1E7A10046B3E1 /* ContentView.swift */,
 				9AF4A12E2CA1E7A20046B3E1 /* Assets.xcassets */,
 				9AF4A1302CA1E7A20046B3E1 /* Preview Content */,
+				9AB189832CADBC6B00F0BBC4 /* ContentView.swift */,
 			);
 			path = CarCards;
 			sourceTree = "<group>";
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF4A12D2CA1E7A10046B3E1 /* ContentView.swift in Sources */,
+				9AB189842CADBC6B00F0BBC4 /* ContentView.swift in Sources */,
 				9AF4A12B2CA1E7A10046B3E1 /* CarCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
